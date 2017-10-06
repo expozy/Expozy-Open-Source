@@ -3,9 +3,9 @@
 session_start();
 
 $servername = "localhost";
-$username = "opensour_user";
-$password = "Studio123";
-$dbname = "opensour_db";
+$username = "DB USER";
+$password = "DB PASS";
+$dbname = "DB NAME";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
