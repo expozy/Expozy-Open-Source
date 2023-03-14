@@ -1,6 +1,0 @@
-RewriteEngine On
-RewriteRule ^([0-9]+)-([^/]*)\.html$ /index.php?id=$1&slug=$2 [L]
-RewriteRule ^news/([0-9]+)-([^/]*)\.html$ /article.php?id=$1&slug=$2 [L]
-RewriteRule ^sertifikati\.html$ /certificates.php [L]
-RewriteRule ^kontakti\.html$ /contacts.php [L]
-RewriteRule ^news/$ /news.php [L]
